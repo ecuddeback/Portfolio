@@ -188,6 +188,9 @@ section, .section-container, .intro, .about-section, #skills, #experience, #proj
     width: 400px;
     margin: auto 0;
 }
+.intro__pic-container img {
+    width: 100%;
+}
 .intro__text {
     align-self: center;
     text-align: center;
