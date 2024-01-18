@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Erica Cuddeback | Web Developer</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <!-- HEADER -->
+        <header class="sticky-header">
+            <!-- DESKTOP NAV -->
+            <nav id="desktop-nav">
+                <div class="logo"><a href="#home">Erica Cuddeback</a></div>
+                <div>
+                    <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- HAMBURGER MENU -->
+            <nav id="hamburger-nav">
+                <div class="logo"><a href="#home">Erica Cuddeback</a></div>
+                <div class="hamburger-menu" onclick="toggleMenu()">
+                    <div class="hamburger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="menu-links">
+                    <ul>
+                        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- MAIN -->
+        <main>
+        <!-- INTRODUCTION -->
+            <section id="home" class="intro">
+                <div class="intro__pic-container">
+                    <img src="/assets/profile.png" alt="Picture of Erica Cuddeback" />
+                </div>
+                <div class="intro__text">
+                    <p class="intro__text__p1">Hello, I'm</p>
+                    <h1 class="intro-title">Erica Cuddeback</h1>
+                    <p class="intro__text__p2">Frontend Developer</p>
+
+                    <div class="btn-container">
+                        <a href="/assets/resume.pdf" target="_blank"><button 
+class="btn btn-color-2">Download CV</button></a>
+                        <button 
+class="btn btn-color-1" onclick="location.href='#contact'">Contact</button>
+                    </div>
+                    <div id="socials-container">
+                        <div class="icon">
+                          <a href="https://github.com/ecuddeback" target="_blank"><i class="fa fa-github"></i></a>
+                          <a href="https://www.linkedin.com/in/erica-cuddeback" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ABOUT ME -->
+            <section id="about" class="about-section"> 
+                <div class="about-heading">
+                    <h2>About Me</h2>
+                </div>
+                <div class="about-container">
+                    <!-- ABOUT TEXT -->
+                    <div class="about-content">
+                        <h3>Let's get Personal...</h3>
+                        <p>I am a self-taught Front-End Web Developer, with a background in nursing. I embraced web development for an improved work-life balance, growth opportunities, and a newfound passion inspired by my husband, a Software Engineer. My skills encompass effective communication, problem-solving, critical thinking, adaptability, time management, organization, and attention to detail. Currently enrolled in Meta's Front End Develiper Course. I aspire to evolve my UI/UX skills.  During my spare time I indulge in travel, reading, gardening, cooking, and gaming.</p>
+                        <!-- AVAILABILITY BUTTON -->
+                        <div class="availability-section">
+                            <button class="availability-button">
+                                    <span class="dot"></span> Available for Work
+                            </button>
+                        </div>
+                    </div>
+                    <!-- ABOUT IMAGE -->
+                    <div class="about-image">
+                        <img src="/assets/about.jpg" alt="Photo of Erica Cuddeback">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills -->
+            <section id="skills">
+                <h2 class="skills-heading">Skills</h2>
+                <div class="skills-section">
+                    <div class="skill-card">
+                        <img src="/assets/html.png" alt="HTML Logo">
+                        <p>HTML</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="/assets/css.png" alt="CSS Logo">
+                        <p>CSS</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="/assets/javascript.png" alt="JavaScript Logo">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="/assets/git.png" alt="Git Logo">
+                        <p>Git</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="/assets/microsoft.png" alt="Microsoft 365 Logo">
+                        <p>Microsoft 365</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- EXPERIENCE -->
+            <section id="experience">
+                <div class="edex-container">
+                    <div class="row">
+                        <!-- EDUCATION SECTION -->
+                        <div class="col">
+                            <h2 class="edex-title">EDUCATION</h2>
+                            <div class="edex-contents">
+                                <div class="box">
+                                    <h4>2012 - 2016</h4>
+                                    <h3>High School Degree</h3>
+                                    <p>Graduated from Hardee Senior High School with a 3.8 GPA. Participated in extracurricular activities and volunteered in the community through Key Club.</p>
+                                </div>
+                                <div class="box">
+                                    <h4>2018 - 2019</h4>
+                                    <h3>Licensed Practical Nurse Degree</h3>
+                                    <p>Graduated from Traviss Technical College as Valedictorian with a 4.0 GPA. Volunteered at a local homeless shelter and in a volunteers in medicine program.</p>
+                                </div>
+                                <div class="box">
+                                    <h4>2024</h4>
+                                    <h3>Coursera Certification</h3>
+                                    <p>Currently enrolled in the "META Front End Developer" course. Successfully completed the course "Introduction to HTML, CSS, and JavaScript."</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- EXPERIENCE SECTION -->
+                        <div class="col">
+                            <h2 class="edex-title">EXPERIENCE</h2>
+                            <div class="edex-contents">
+                                <div class="box">
+                                    <h4>2023</h4>
+                                    <h3>Care Coordinator</h3>
+                                    <p>Worked at Care Harmony, collaborating with interdisciplinary teams to deliver quality care. Identified local resources and coordinated needs for chronic care management patients.</p>
+                                </div> 
+                                <div class="box">
+                                    <h4>2021-2023</h4>
+                                    <h3>Continuous Care Nurse</h3>
+                                    <p>Continuous Care nurse at Good Shepherd Hospice, providing peaceful passages for end-of-life patients. Obtained admission data and worked with the interdisciplinary team.</p>
+                                </div>
+                                <div class="box">
+                                    <h4>2020-2021</h4>
+                                    <h3>ALF Licensed Practical Nurse</h3>
+                                    <p>Employed at FL Presbyterian Homes, ensuring necessary appointments, meeting transportation needs, and managing medication orders for patients.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                
+            <!-- Projects -->
+            <section id="projects">
+                <p class="section__text__p1">Browse My recent</p>
+                <h1 class="title">Projects<h1>
+                <div class="experience-details-container">
+                <!-- Project One -->
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img src="/assets/project-img.jpg" alt="Project 1 Image" class="project-img"/>
+                            <h2 class="experience-sub-title project-title">Project One</h2>
+                            <div class="btn-container">
+                                <button class="btn btn-color-2 project-btn" onclick="location.href='#'">Github</button>
+                                <button class="btn btn-color-2 project-btn" onclick="location.href='#'">Live Demo</button>
+                            </div>
+                        </div>
+                        <!-- Project Two -->
+                        <div class="article-container">
+                            <img src="/assets/project-img.jpg" alt="Project 2 Image" class="project-img"/>
+                            <h2 class="experience-sub-title project-title">Project Two</h2>
+                            <div class="btn-container">
+                                <button class="btn btn-color-2 project-btn" onclick="location.href='#'">Github</button>
+                                <button class="btn btn-color-2 project-btn" onclick="location.href='#'">Live Demo</button>
+                            </div>
+                        </div>
+                        <!-- Project Three -->
+                        <div class="article-container">
+                            <img src="/assets/project-img.jpg" alt="Project 3 Image" class="project-img"/>
+                            <h2 class="experience-sub-title project-title">Project Three</h2>
+                            <div class="btn-container">
+                                <button class="btn btn-color-2 project-btn" onclick="location.href='#'">Github</button>
+                                <button class="btn btn-color-2 project-btn" onclick="location.href='#'">Live Demo</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <p id="progress"><i>Projects section is in progress... </i><p>
+            </section>
+                 
+            <!-- Contact -->
+            <section id="contact">
+                <div class="left">
+                    <h2>Get in Touch with Me</h2>
+                    <p>Have any questions? Feel free to contact me and I'd be glad to discuss them with you. Interested in Networking? Connect with me!</p>
+                    <p><img src="/assets/location.png" alt="Location Icon"><b>Location:</b> Winter Haven, FL</p>
+                    <p><img src="/assets/mail.png" alt="Mail Icon"><b>Email:</b>  ecuddeback1@outlook.com</p>
+                    <!--<p><img src="/assets/phone.png" alt="Phone Icon"><b>Cell:</b></p>-->
+                    <div>
+                        <h3>Connect with Me</h3>
+                        <div class="social-icons">
+                          <a href="https://github.com/ecuddeback" target="_blank"><i class="fa fa-github"></i></a>
+                          <a href="https://www.linkedin.com/in/erica-cuddeback" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>|
+                        <li><a href="#about">About</a></li>|
+                        <li><a href="#skills">Skills</a></li>|
+                        <li><a href="#experience">Experience</a></li>|
+                        <li><a href="#projects">Projects</a></li>|
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>&copy; 2024 | Erica Cuddeback <br>All Rights Reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
