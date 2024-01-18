@@ -597,6 +597,24 @@ footer p {
     }
 }
 
+/* INTRO */
+@media only screen and (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    .intro__pic-container {
+        height: auto;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .intro__text {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
 /* ABOUT */
 @media screen and (max-width: 768px) {
     .heading h1 {
@@ -612,10 +630,6 @@ footer p {
         margin: 0px;
         padding: 0px 40px;
     }
-    .about-container {
-        width: 100%;
-        margin: 35px 0px;
-    }
     .about-content h2 {
         font-size: 30px;
     }
@@ -627,10 +641,28 @@ footer p {
         font-size: 16px;
         padding: 8px 16px;
     }
+} 
+
+@media only screen and (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+    .about-content,
     .about-image {
         width: 100%;
+        margin: 0;
     }
-} 
+
+    .about-content {
+        order: 2;
+    }
+
+    .about-image {
+        order: 1;
+    }
+}
 
 /* SKILLS */
 @media screen and (max-width: 768px) {
