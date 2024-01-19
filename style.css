@@ -450,6 +450,7 @@ section, .section-container, .intro, .about-section, #skills, #experience, #proj
     align-items: center;
     width: 100%;
     overflow: hidden;
+    background-color: #f3f3f3;
 }
 .experience-sub-title {
     color: rgb(85,85,85);
@@ -608,11 +609,13 @@ footer p {
         gap: 1rem;
         text-align: center;
         height: auto;
+        overflow: hidden;
     }
     .intro__pic-container {
         height: auto;
         width: 80%;
         margin: 0 auto;
+        overflow: hidden;
     }
     .intro__text {
         width: 80%;
