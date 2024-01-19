@@ -181,12 +181,14 @@ section, .section-container, .intro, .about-section, #skills, #experience, #proj
     height: 100vh;
     align-items: center;
     margin-bottom: 30px;
+    overflow: hidden;
 }
 .intro__pic-container {
     display: flex;
     height: auto;
     width: 100%;
     margin: auto 0;
+    overflow: hidden;
 }
 .intro__pic-container img {
     width: 100%;
