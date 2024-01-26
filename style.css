@@ -104,7 +104,7 @@ a:hover {
 }
 .menu-links {
     position: absolute;
-    top: 10%;
+    top: 13%;
     right: 0;
     background-color: white;
     width: fit-content;
@@ -261,6 +261,9 @@ section, .section-container, .intro, .about-section, #skills, #experience, #proj
 }
 .btn-container { 
     gap: 1rem;
+}
+.btn-container a:hover {
+    text-decoration: none;
 }
 
 /* ABOUT */
